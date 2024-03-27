@@ -1,0 +1,506 @@
+
+
+@page cover{
+	size: 8.5in 12in; 
+	margin-header: 5mm; 
+	margin-footer: 5mm; 
+	marks:  none;
+  header: html_MyCoverHeader;
+  footer: html_MyCoverFooter;
+}
+@page pdf-page{	
+  size: 8.5in 12in; 
+	margin-header: 5mm; /* <any of the usual CSS values for margins> */
+	margin-footer: 5mm; /* <any of the usual CSS values for margins> */
+	marks:  none;
+  header: html_MyHeader;
+  footer: html_MyFooter;
+}
+
+div.pdfnoheader{
+  page: cover;
+}
+
+div.pdf-page{
+  page-break-after: always;
+  page: pdf-page;
+}
+
+.title-header{
+  font-family : opensanscondensed;
+  font-weight: 300;
+  font-size : 12pt;
+  color : #56595A;
+  color : rgb(86, 89, 90);
+  text-align: right;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+
+li{
+  color:#00BBE8;
+}
+
+li span{
+  color:black;
+}
+
+::marker {
+  font-size: x-large;
+}
+
+.header-pdf{
+  display: inline-block;
+}
+
+.image-cover{
+  margin-top : 43pt;
+  width : 360pt;
+  height : 124pt;
+}
+
+.cover-container{
+  text-align: center;
+}
+
+.cover-container h1{
+  font-family : opensanscondensed;
+  font-weight: 300;
+  font-size: 32pt;
+  letter-spacing : -0.51pt;
+  color : #56595A;
+  color : rgb(86, 89, 90);
+}
+
+.cover-center-text{
+  margin-top: 35%;
+  font-family : bakbakone;
+  font-size : 18px;
+  letter-spacing: 0.2pt;
+  color : #56595A;
+  color : rgb(86, 89, 90);
+}
+
+.cover-hr{
+  margin-top: 20px;
+  color: #CBCCCA;
+  width : 288pt;
+  height : 0pt;
+}
+
+.image-cover-footer{
+  margin-top: 150px;
+  width : 148pt;
+  height : 53pt;
+}
+
+div.body{
+  padding-top: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p.welcome{
+  font-family : opensanscondensed;
+  font-weight: 300;
+  font-size : 20pt;
+  color : #56595A;
+  color : rgb(86, 89, 90);
+  margin-top: -100px;
+  margin-left: -50px;
+  margin-bottom: 100px;
+}
+
+p.sub-heading{
+  font-family: opensanscondensed;
+  font-weight: bold;
+  font-size : 10pt;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.content-m10{
+  font-family : opensanscondensed;
+  font-size : 10pt;
+  letter-spacing : -0.19pt;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.content-m11{
+  font-family : opensanscondensed;
+  font-size : 11pt;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.content-mb11{
+  font-family : opensanscondensed;
+  font-size : 11pt;
+  font-weight:700;
+  color:#00BBE8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.content-mi10{
+  font-family : opensanscondensed;
+  font-size : 10pt;
+  font-style: italic;
+  line-height: 14pt;
+  font-weight: 300;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.signature-name{
+  font-family : dancingscript;
+  font-size : 18pt;
+  letter-spacing : -0.34pt;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.heading{
+  font-family : opensanscondensed;
+  font-size : 20pt;
+  color : #00BBE8;
+  color : rgb(0, 187, 232);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.oxygen-compass-img{
+  margin-top: 15%;
+  padding-left: 20px;
+  width: 500px;
+  height: 540px;
+  background-size: contain;
+}
+
+.compass-star-steady{
+  padding-left:18%;
+  padding-top:78%;
+}
+
+.compass-star-relational{
+  padding-left:71%;
+  padding-top:78%;
+}
+
+.compass-star-peacekeeping{
+  padding-left:44%;
+  padding-top:83%;
+}
+
+.compass-star-efficient{
+  padding-left:44%;
+  padding-top:17%;
+}
+
+.compass-star-accurate{
+  padding-left:18%;
+  padding-top:25%;
+}
+
+.compass-star-coordinating{
+  padding-left:9%;
+  padding-top:49%;
+}
+
+.compass-star-persuasive{
+  padding-left:80%;
+  padding-top:50%;
+}
+
+.compass-star-driven{
+  padding-left:72%;
+  padding-top:25%;
+}
+
+
+.personality-insight-box{
+  padding: 30px;
+}
+
+.personality-graph{
+  width: 90%;
+  margin: auto;
+  height: 120px;
+  background-color: #ececec;
+  display: inline-block;
+}
+
+.personality-graph-decision{
+  background-image: url("images/personality-decision.png");
+  height: 98px;
+  background-size: contain;
+}
+
+.personality-graph-influencing{
+  background-image: url("images/personality-influencing.png");
+  height: 98px;
+  background-size: contain;
+}
+
+.personality-graph-reacting{
+  background-image: url("images/personality-reacting.png");
+  height: 98px;
+  background-size: contain;
+}
+
+.personality-graph-solving{
+  background-image: url("images/Personality-solving.png");
+  height: 98px;
+  background-size: contain;
+}
+
+.pi-sp-r-10{
+  margin-right: 16px;
+  width: 182px;
+}
+
+.pi-sp-r-9{
+  margin-right: 34px;
+  width: 164px;
+}
+
+.pi-sp-r-8{
+  margin-right: 52px;
+  width: 146px;
+}
+
+.pi-sp-r-7{
+  margin-right: 71px;
+  width: 128px;
+}
+
+.pi-sp-r-6{
+  margin-right: 89px;
+  width: 110px;
+}
+
+.pi-sp-r-5{
+  margin-right: 107px;
+  width: 92px;
+}
+
+.pi-sp-r-4{
+  margin-right: 125px;
+  width: 74px;
+}
+
+.pi-sp-r-3{
+  margin-right: 143px;
+  width: 56px;
+}
+.pi-sp-r-2{
+  margin-right: 159px;
+  width: 40px;
+}
+
+.pi-sp-r-1{
+  margin-right: 171px;
+  width: 28px;
+}
+
+.pi-sp-l-10{
+  margin-right: 200px;
+  width: 184px;
+}
+
+.pi-sp-l-9{
+  margin-right: 200px;
+  width: 164px;
+}
+
+.pi-sp-l-8{
+  margin-right: 200px;
+  width: 146px;
+}
+
+.pi-sp-l-7{
+  margin-right: 200px;  
+  width: 128px;
+}
+
+.pi-sp-l-6{
+  margin-right: 200px;  
+  width: 110px;
+}
+
+.pi-sp-l-5{
+  margin-right: 200px;
+  width: 92px;
+}
+
+.pi-sp-l-4{
+  margin-right: 200px;
+  width: 74px;
+}
+
+.pi-sp-l-3{
+  margin-right: 200px;
+  width: 56px;
+}
+.pi-sp-l-2{
+  margin-right: 200px;
+  width: 40px;
+}
+
+.pi-sp-l-1{
+  margin-right: 200px;
+  width: 28px;
+}
+
+.personality-insights-graph{
+  margin-top: 30px;
+}
+
+.personality-insights-graph div{
+  background-color: #00BBE8;
+  text-align: right;
+  float: right;
+  margin-top: 35px;
+}
+
+
+
+
+.personality-insights-graph div span{
+  color: white;
+  font-size: 8pt;
+}
+
+.personality-graph p{
+  display: inline-block;
+}
+
+.graph-blue{
+  display: inline-block;
+}
+
+.personality-insight-table{
+  border-spacing: 20px;
+}
+
+.personality-insight-table td{
+  background-color: #ececec;
+  padding: 20px;
+  border-style : Solid;
+  border-color : #BFC3C4;
+  width: 100%;
+}
+
+.personality-insight-box .sub-heading{
+  font-family : opensanscondensed;
+  font-size : 9pt;
+  font-weight: 300;
+  letter-spacing : -0.6pt;
+  color : #00BBE8;
+  color : rgb(0, 187, 232);
+}
+
+.personality-insight-box ul li{
+  font-family : opensanscondensed;
+  font-size : 6pt;
+  letter-spacing : -0.6pt;
+  line-height : 12.56pt;
+}
+
+.perception-sub-heading{
+  font-family : opensanscondensed;
+  font-size : 20pt;
+  color : #00BBE8;
+  color : rgb(0, 187, 232);
+  margin: 0;
+}
+
+.perception-table{
+  margin-bottom: 50px;
+}
+
+.perception-table td{
+  line-height: 50px;
+  width: 300px;
+  font-size: 12pt;
+  font-family: opensanscondensed;
+}
+
+.perception-mb11{
+  font-family: opensanscondensed;
+  font-size: 12pt;
+  letter-spacing: -0.5pt;
+  font-weight: bolder;
+}
+
+.perception-hr{
+  color:#00BBE8;
+  width:100%;
+  height:1pt;
+  margin:0;
+}
+
+.content-list-m11{
+  font-family : opensanscondensed;
+  font-size: 11pt;
+  line-height: 35pt;
+}
+ 
+
+/** LAST PAGE **/
+.last-page-subheading{
+  font-family : opensanscondensed;
+  font-size : 12pt;
+  color : #00BBE8;
+  color : rgb(0, 187, 232);
+}
+
+.last-table td{
+  width: 100%;
+}
+
+.scan-img{
+  display: inline-block;
+}
+
+.scan-txt{
+  display: inline-block;
+  width: 10%;
+}
+
+
+.list-content-m11{
+  font-family : opensanscondensed;
+  font-size: 300;
+  font-size : 11pt;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-content-m11 li::marker {
+  color: #00BBE8;
+}
+
+.last-footer-heading{
+  font-family : opensanscondensed;
+  font-size : 14pt;
+}
+
+.last-footer-text{
+  font-family : NimbuSanTRegCon;
+  font-size : 7pt;
+  letter-spacing : -0.34pt;
+}
